@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+  <script src="./assets/js/data.js" defer></script>
+  <script src="./assets/js/index.js" defer></script>
+  <link rel="stylesheet" href="./assets/css/reset.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <title>Document</title>
+</head>
+<body>
+  <header class="Header">
+    <div class="headWrap">
+      <span class="logo">FreshNews</span>
+      <input id="search" placeholder="Search an Article" type="text">
+    </div>
+  </header>
+  <h1>News</h1>
+  <section class="formSection">
+    <form id='createNews'>
+      <h2 class="Head">Add new Post</h2>
+      <input type="text" name="title" minlength="2" required>
+      <textarea name="content" id="content" cols="30" rows="10" draggable="false" minlength="5" required></textarea>
+      <div class="Container">
+        <button type="submit">Publish</button>
+        <button type="reset">Cancel</button>
+      </div>
+    </form>
+  </section>
+  <section class="news">
+    <!-- render start point -->
+  </section>
+</body>
+</html>

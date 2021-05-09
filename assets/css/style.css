@@ -1,0 +1,93 @@
+:root {
+  --content-width: 80%;
+  --page-background-color: rgb(255, 226, 131);
+  --white-color: white;
+  --box-shadow: 5px 3px 13px 2px darkgoldenrod;
+}
+
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: var(--page-background-color);
+}
+body > h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: bolder;
+  padding: 20px 0;
+}
+
+
+.Header {
+  display: flex;
+  height: 100px;
+  width: 100%;
+  background-color: rgb(97, 145, 107);
+}
+.headWrap {
+  display: flex;
+  justify-content: space-between;
+  align-self: center;
+  width: var(--content-width);
+  margin: 0 auto;
+}
+.logo {
+  font-family: "Russo One", sans-serif;
+  font-size: 2rem;
+  user-select: none;
+}
+#search {
+  box-shadow: 1px 1px 9px 2px #7c7b79;
+  border-radius: 5px;
+}
+
+
+.formSection {
+  width: var(--content-width);
+  margin: 25px auto;
+  padding: 25px 0;
+  background-color: var(--white-color);
+  box-shadow: var(--box-shadow);
+}
+#createNews {
+  display: flex;
+  flex-direction: column;
+  width: var(--content-width);
+  margin: 0 auto;
+  text-align: center;
+}
+#createNews > * {
+  margin: 10px 0;
+}
+.Head {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+#content {
+  resize: none;
+}
+.Container {
+  display: flex;
+  justify-content: space-around;
+}
+
+
+.news {
+  width: var(--content-width);
+  margin: 25px auto;
+  padding: 15px 0;
+}
+.newsWrap {
+  margin: 25px auto;
+  padding: 0 10%;
+  background-color: var(--white-color);
+  box-shadow: var(--box-shadow);
+}
+.newsWrap > * {
+  padding: 15px 0;
+}
+.newsTitle {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
